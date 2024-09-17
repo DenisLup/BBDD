@@ -1,18 +1,88 @@
 #Amplia tu aprendizaje
 1. Define los siguiente conceptos:
-- Dato
-- Tipo de Dato
-- Campo
-- Registro
-- Consulta
-- Procedimiento
+- Datocualquier tipo de información que tiene el objetivo el tratamiento de la dicha en la computadora de forma adecuadamente ordenada
+- Tipo de Dato: espacio de dato con restricciones
+- Campo: lugar donde se almacenan los atributos de cada registro
+- Registro: donde se almacena la información de cada entidad 
+- Consulta: solicitud que se le da a las bases de datos para manipular o extraer datos
+- Procedimiento: instrucciones agrupadas con el mismo fin
 
 2. Clasifica los distintos tipos de fichero
+Hay dos tipos principales de ficheros: ficheros permanentes y ficheros temporales. Los permanentes contienen información relevante para la aplicación, es decir, sin esos datos la aplicación no funcionaria. Los ficheros temporales solo son útiles para una parte de la aplicación y tienen un periodo de existencia. 
+A su vez los ficheros permanentes se dividen en ficheros maestros, que son los que contienen los datos actuales de la aplicación, ficheros constantes, que son los que incluyen datos fijos para la aplicación, y ficheros históricos, que son aquellos que tienen datos anteriores considerados como actuales. 
+Los ficheros temporales se dividen en ficheros intermedios, que son aquellos que almacenan resultados de una aplicación para utilizarlos en otra, ficheros de maniobras, que son aquellos que almacenan datos los cuales no se pueden mantener en la memoria principal por falta de espacio, y los ficheros de resultados, que son aquellos que almacenan datos que van a ser transfiridos a un dispositivo de salida.
 
 3. ¿Qué son las tablas UNICODE?
+Son sistemas de codificación que permiten representar y manipular texto en diferentes lenguajes y símbolos mediante un conjunto estandarizado de código
 
 4. Tipos de SGBD
+  1.SGBD relacionales (RDBMS)
+  2.SGBD no relacionales (NoSQL)
+  3.SGBD orientados a objetos (OODBMS)
+  4.SGBD orientados a XML
+  5. SGBD jerárquicos
+  6. SGBD 	en red
+  7. SGBD distribuidos
+  8. SGBD en memoria
 
 5. Distribuciones de SGBD 
-
+  1. Distribución local o servidor único
+	2. Distribución en red o Cliente-servidor
+	3. Distribución en la nube
+	4. Distribución distribuida
+	5. Distribución en Clúster
+	6. Distribución híbrida
+	7. Distribución en memoria
+	8. Distribución de base de datos en la nube
+	
 6.-Alternativas a los SGBD Comerciales
+  SGBD Relacionales
+MySQL
+Descripción: Uno de los SGBD relacionales de código abierto más populares. Utilizado ampliamente en aplicaciones web y en combinación con el stack LAMP (Linux, Apache, MySQL, PHP/Perl/Python).
+Sitio Web: MySQL
+PostgreSQL
+Descripción: Un SGBD relacional de código abierto conocido por su conformidad con los estándares SQL y sus características avanzadas como soporte para JSON y extensiones.
+Sitio Web: PostgreSQL
+MariaDB
+Descripción: Un fork de MySQL desarrollado por la comunidad que ofrece características adicionales y mejoras de rendimiento.
+Sitio Web: MariaDB
+SQLite
+Descripción: Un SGBD relacional ligero que se integra directamente en aplicaciones y es ampliamente utilizado en aplicaciones móviles y de escritorio.
+Sitio Web: SQLite
+SGBD No Relacionales (NoSQL)
+MongoDB
+Descripción: Un SGBD basado en documentos que almacena datos en formato BSON (una extensión binaria de JSON). Popular para aplicaciones web y big data.
+Sitio Web: MongoDB
+CouchDB
+Descripción: Un SGBD basado en documentos que utiliza JSON para almacenar datos y JavaScript para consultas. Es conocido por su replicación y sincronización en red.
+Sitio Web: CouchDB
+Redis
+Descripción: Un almacén de datos en memoria basado en clave-valor, conocido por su alta velocidad y uso en cachés, colas de mensajes, y almacenamiento temporal.
+Sitio Web: Redis
+Apache Cassandra
+Descripción: Un SGBD distribuido de tipo columna que ofrece alta disponibilidad y escalabilidad, ideal para aplicaciones con grandes volúmenes de datos distribuidos.
+Sitio Web: Apache Cassandra
+Neo4j
+Descripción: Un SGBD de grafos que se enfoca en almacenar y consultar datos con relaciones complejas, como redes sociales o sistemas de recomendación.
+Sitio Web: Neo4j
+SGBD Orientados a Objetos
+db4o
+Descripción: Un SGBD orientado a objetos que permite a los desarrolladores almacenar objetos directamente en la base de datos.
+Sitio Web: db4o
+ObjectDB
+Descripción: Un SGBD orientado a objetos para Java que proporciona almacenamiento y consultas para objetos Java.
+Sitio Web: ObjectDB
+SGBD Distribuidos
+CockroachDB
+Descripción: Un SGBD distribuido diseñado para ofrecer alta disponibilidad y escalabilidad con una arquitectura de tolerancia a fallos.
+Sitio Web: CockroachDB
+Apache HBase
+Descripción: Un SGBD distribuido de columna que se ejecuta sobre Hadoop y es adecuado para manejar grandes volúmenes de datos.
+Sitio Web: Apache HBase
+SGBD en la Nube
+Amazon DynamoDB (de pago)
+Descripción: Un servicio de base de datos NoSQL gestionado en la nube, escalable y de alto rendimiento.
+Sitio Web: Amazon DynamoDB
+Firebase Realtime Database
+Descripción: Un servicio en la nube que proporciona sincronización en tiempo real y almacenamiento basado en JSON para aplicaciones web y móviles.
+Sitio Web: Firebase
